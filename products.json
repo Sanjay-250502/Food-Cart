@@ -1,0 +1,110 @@
+[
+    {
+        "id":1,
+        "name":"MC-Donalds Burger",
+        "amt":299,
+        "shop":"DONALDS",
+        "foodType":"Burger",
+        "pic":"./src/assets/Burger.jpg",
+        "latest":"No"
+    },
+    {
+        "id":2,
+        "name":"Barbeque Chicken",
+        "amt":499,
+        "shop":"Liyaqat Food court",
+        "foodType":"Chicken",
+        "pic":"./src/assets/Barbeque-chicken.jpg",
+        "latest":"Yes"
+    },
+    {
+        "id":3,
+        "name":"Mutton Shawarma",
+        "amt":199,
+        "shop":"Liyaqat Food court",
+        "foodType":"Shawarma",
+        "pic":"./src/assets/Chicken-Shawarma.jpg",
+        "latest":"Yes"
+    },
+    {
+        "id":4,
+        "name":"French Fries",
+        "amt":99,
+        "shop":"The Burger Company",
+        "foodType":"french fries",
+        "pic":"./src/assets/french-fries.jpg",
+        "latest":"No"
+    },
+    {
+        "id":5,
+        "name":"Fried Rice",
+        "amt":149,
+        "shop":"Arya Bhavan",
+        "foodType":"Rice",
+        "pic":"./src/assets/fried-rice.jpg",
+        "latest":"Yes"
+    },
+    {
+        "id":6,
+        "name":"Mixed Fruit",
+        "amt":269,
+        "shop":"Ibaco",
+        "foodType":"Fruits",
+        "pic":"./src/assets/Fruits.jpg",
+        "latest":"No"
+    },
+    {
+        "id":7,
+        "name":"KFC Chicken",
+        "amt":599,
+        "shop":"KFC",
+        "foodType":"Chicken",
+        "pic":"./src/assets/KFC-chicken.jpg",
+        "latest":"No"
+    },
+    {
+        "id":8,
+        "name":"Mutton Biriyani",
+        "amt":399,
+        "shop":"Dindigul Thalapakaty Biriyani",
+        "foodType":"Biriyani",
+        "pic":"./src/assets/Mutton-Biryani.jpg",
+        "latest":"Yes"
+    },
+    {
+        "id":9,
+        "name":"Chicken Noodles",
+        "amt":459,
+        "shop":"Red Chef",
+        "foodType":"Noodles",
+        "pic":"./src/assets/noodles.jpg",
+        "latest":"Yes"
+    },
+    {
+        "id":10,
+        "name":"Veg Pasta",
+        "amt":99,
+        "shop":"Pasta Food court",
+        "foodType":"Pasta",
+        "pic":"./src/assets/pasta.jpg",
+        "latest":"No"
+    },
+    {
+        "id":11,
+        "name":"Full Chicken Pizza",
+        "amt":799,
+        "shop":"Dominos Pizza",
+        "foodType":"Pizza",
+        "pic":"./src/assets/pizza.jpg",
+        "latest":"Yes"
+    },
+    {
+        "id":12,
+        "name":"Dosa",
+        "amt":89,
+        "shop":"Hotel Arya Bhavan",
+        "foodType":"Dosa",
+        "pic":"./src/assets/plain-dosa.jpg",
+        "latest":"No"
+    }
+]
