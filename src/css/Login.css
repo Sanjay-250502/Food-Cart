@@ -1,0 +1,61 @@
+.body {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/209/721/107/food-burger-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: padding-box;
+}
+.login-container{
+    /* background-color:rgb(146, 250, 222); */
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 500px;
+    width: 100%;   
+}
+.login-container h2 {
+    margin-bottom: 20px;
+    color: rgb(11, 11, 11);
+}
+.form-label{
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255) !important;
+    font-weight: 700;
+}
+.form-control{
+    margin-bottom: 10px !important;
+    outline: none !important;
+    border: none;
+}
+.form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-bottom: 5px solid teal !important;
+}
+form .span{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(12, 238, 0);
+    text-decoration: underline;
+}
+button{
+    color: black !important;
+    font-weight: 700 !important;
+    margin-bottom: 10px;
+   
+}
+.reg{
+    color: white !important;
+}
+
+.message{
+    color: rgb(7, 7, 7);
+    font-weight: 900;
+    font-size: 20px;
+}

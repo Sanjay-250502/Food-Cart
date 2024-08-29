@@ -6,6 +6,8 @@ import Home from './Components/Home'
 import Header from './Components/Header'
 import Cart from './Components/Cart'
 import { useState } from 'react'
+import Login from './Components/Login'
+import Register from './Components/Register'
 
 function App() {
   
@@ -23,11 +25,11 @@ function App() {
     <>
       
         <BrowserRouter>
-        <div className='container'>
-          <Header cart={cart} onSearch={handleSearch}/>
-        </div>  
           <Routes>
-             <Route path='/' element={<Home cart={cart} setCart={setCart} products={filteredProducts}/>} />
+             <Route path='/' element={<Login/>}/>
+             <Route path='/Register' element={<Register/>}/>
+              {/* <Route path='/Header' element={<Header cart={cart} onSearch={handleSearch}/>}/> */}
+             <Route path='/Home' element={<Home cart={cart} setCart={setCart} products={filteredProducts}/>} />
              <Route path='/Cart' element={<Cart cart={cart} setCart={setCart}/>} />
           </Routes>  
               

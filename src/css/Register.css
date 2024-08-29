@@ -1,0 +1,41 @@
+.register-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.register-container{
+    background-image: url(https://d3h2k7ug3o5pb3.cloudfront.net/image/2020-11-23/3b788920-2d79-11eb-9dcd-8b2ef5358591.jpg);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;   
+    background-color: red; 
+}
+.register-container h2 {
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+.form-label-1{
+    margin-bottom: 5px;
+    color: white;
+}
+.form-control-1{
+    margin-bottom: 10px !important;
+    outline: none !important;
+    border: none;
+}
+.form-control-1:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-bottom: 4px solid teal !important;
+}
+button{
+    color: black !important;
+    font-weight: 700 !important;
+    margin-bottom: 10px;
+}
+.reg{
+    color: white !important;
+}

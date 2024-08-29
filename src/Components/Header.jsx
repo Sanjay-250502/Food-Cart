@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "../css/header.css"
 import { Link } from 'react-router-dom'
-import { CiSearch } from "react-icons/ci";
+// import { CiSearch } from "react-icons/ci";
 import { CiShoppingCart } from "react-icons/ci";
 
 const Header = ({cart,onSearch}) => {
@@ -47,7 +47,7 @@ const Header = ({cart,onSearch}) => {
       <div className="collapse navbar-collapse justify-content-end">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <Link to={"/"} className="link nav-link home" >Home</Link>
+            <Link to={"/Home"} className="link nav-link home" >Home</Link>
           </li>
           <li className="nav-item">
             <Link to={"/Cart"} className="link nav-link" >

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "../css/Cart.css"
+import Header from './Header';
 const Cart = ({cart,setCart}) => {
   const [total,setTotal] = useState(0)
   
@@ -37,6 +38,7 @@ const Cart = ({cart,setCart}) => {
 
   return (
     <>
+    <Header cart={cart} onSearch={() => {}} />
     {cart.length>0 ? (
       <div className="container">
     <h1 className='cart-heading mt-5'>Cart Products</h1>

@@ -5,7 +5,7 @@
         "amt":299,
         "shop":"DONALDS",
         "foodType":"Burger",
-        "pic":"./src/assets/Burger.jpg",
+        "pic":"/src/assets/Burger.jpg",
         "latest":"No"
     },
     {
@@ -14,7 +14,7 @@
         "amt":499,
         "shop":"Liyaqat Food court",
         "foodType":"Chicken",
-        "pic":"./src/assets/Barbeque-chicken.jpg",
+        "pic":"/src/assets/Barbeque-chicken.jpg",
         "latest":"Yes"
     },
     {
@@ -23,7 +23,7 @@
         "amt":199,
         "shop":"Liyaqat Food court",
         "foodType":"Shawarma",
-        "pic":"./src/assets/Chicken-Shawarma.jpg",
+        "pic":"/src/assets/Chicken-Shawarma.jpg",
         "latest":"Yes"
     },
     {
@@ -32,7 +32,7 @@
         "amt":99,
         "shop":"The Burger Company",
         "foodType":"french fries",
-        "pic":"./src/assets/french-fries.jpg",
+        "pic":"/src/assets/french-fries.jpg",
         "latest":"No"
     },
     {
@@ -41,7 +41,7 @@
         "amt":149,
         "shop":"Arya Bhavan",
         "foodType":"Rice",
-        "pic":"./src/assets/fried-rice.jpg",
+        "pic":"/src/assets/fried-rice.jpg",
         "latest":"Yes"
     },
     {
@@ -50,7 +50,7 @@
         "amt":269,
         "shop":"Ibaco",
         "foodType":"Fruits",
-        "pic":"./src/assets/Fruits.jpg",
+        "pic":"/src/assets/Fruits.jpg",
         "latest":"No"
     },
     {
@@ -59,7 +59,7 @@
         "amt":599,
         "shop":"KFC",
         "foodType":"Chicken",
-        "pic":"./src/assets/KFC-chicken.jpg",
+        "pic":"/src/assets/KFC-chicken.jpg",
         "latest":"No"
     },
     {
@@ -68,7 +68,7 @@
         "amt":399,
         "shop":"Dindigul Thalapakaty Biriyani",
         "foodType":"Biriyani",
-        "pic":"./src/assets/Mutton-Biryani.jpg",
+        "pic":"/src/assets/Mutton-Biryani.jpg",
         "latest":"Yes"
     },
     {
@@ -77,7 +77,7 @@
         "amt":459,
         "shop":"Red Chef",
         "foodType":"Noodles",
-        "pic":"./src/assets/noodles.jpg",
+        "pic":"/src/assets/noodles.jpg",
         "latest":"Yes"
     },
     {
@@ -86,7 +86,7 @@
         "amt":99,
         "shop":"Pasta Food court",
         "foodType":"Pasta",
-        "pic":"./src/assets/pasta.jpg",
+        "pic":"/src/assets/pasta.jpg",
         "latest":"No"
     },
     {
@@ -95,7 +95,7 @@
         "amt":799,
         "shop":"Dominos Pizza",
         "foodType":"Pizza",
-        "pic":"./src/assets/pizza.jpg",
+        "pic":"/src/assets/pizza.jpg",
         "latest":"Yes"
     },
     {
@@ -104,7 +104,7 @@
         "amt":89,
         "shop":"Hotel Arya Bhavan",
         "foodType":"Dosa",
-        "pic":"./src/assets/plain-dosa.jpg",
+        "pic":"/src/assets/plain-dosa.jpg",
         "latest":"No"
     }
 ]
