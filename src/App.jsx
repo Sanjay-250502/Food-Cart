@@ -8,19 +8,14 @@ import Cart from './Components/Cart'
 import { useState } from 'react'
 import Login from './Components/Login'
 import Register from './Components/Register'
+import Payment from './Components/Payment'
+import Confirmation from './Components/Confirmation'
 
 function App() {
   
   const [cart,setCart] = useState([])
   const [products] = useState(datas)
-  const [filteredProducts, setFilteredProducts] = useState(products);
-
-  const handleSearch = (searchTerm) => {
-    const filtered = products.filter(product =>
-      product.name.toLowerCase().includes(searchTerm.toLowerCase())
-    );
-    setFilteredProducts(filtered);
-  };
+  
   return (
     <>
       
@@ -28,9 +23,10 @@ function App() {
           <Routes>
              <Route path='/' element={<Login/>}/>
              <Route path='/Register' element={<Register/>}/>
-              {/* <Route path='/Header' element={<Header cart={cart} onSearch={handleSearch}/>}/> */}
-             <Route path='/Home' element={<Home cart={cart} setCart={setCart} products={filteredProducts}/>} />
+             <Route path='/home' element={<Home cart={cart} setCart={setCart} products={products}/>} />
              <Route path='/Cart' element={<Cart cart={cart} setCart={setCart}/>} />
+             <Route path='/Payment' element={<Payment/>}/>
+             <Route path='/Confirmation' element={<Confirmation/>}/>
           </Routes>  
               
         </BrowserRouter>

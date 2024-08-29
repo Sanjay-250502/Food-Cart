@@ -1,18 +1,18 @@
 import React, { useState } from 'react'
 import "../css/header.css"
 import { Link } from 'react-router-dom'
-// import { CiSearch } from "react-icons/ci";
 import { CiShoppingCart } from "react-icons/ci";
 
 const Header = ({cart,onSearch}) => {
-    const [inputValue, setInputValue] = useState('');
-    const [sidebarOpen, setSidebarOpen] = useState(false);
     
-    const handleInputChange = (event) => {
-      const value = event.target.value;
-      if (value.length <= 36) {
-        setInputValue(value);
-        onSearch(value); 
+    const [sidebarOpen, setSidebarOpen] = useState(false);
+    const [searchTerm, setSearchTerm] = useState('');
+
+    const handleSearchChange = (event) => {
+      const newSearchTerm = event.target.value;
+      if (newSearchTerm.length <= 36){
+        setSearchTerm(newSearchTerm);
+        onSearch(newSearchTerm)
       }
     };
 
@@ -38,16 +38,15 @@ const Header = ({cart,onSearch}) => {
 
       <div className=" navbar-collapse justify-content-center posrel" id="navbarNav">
         <form className="d-flex w-100">
-          <input className="search-box" type="search" placeholder="Search for restaurants, cuisines or dishes" value={inputValue}
-              onChange={handleInputChange}/>
-          {/* <span className="search-btn"><CiSearch/></span> */}
+          <input className="search-box" type="search" placeholder="Search for cuisines or dishes" value={searchTerm}
+              onChange={handleSearchChange}/>
         </form>
       </div>
 
       <div className="collapse navbar-collapse justify-content-end">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <Link to={"/Home"} className="link nav-link home" >Home</Link>
+            <Link to={"/home"} className="link nav-link home mt-1" >Home</Link>
           </li>
           <li className="nav-item">
             <Link to={"/Cart"} className="link nav-link" >
@@ -66,7 +65,7 @@ const Header = ({cart,onSearch}) => {
   <div className={`sidebar ${sidebarOpen ? 'open' : ''}`}>
         <ul className="navbar-nav">
           <li className="nav-item">
-            <Link to={"/"} className="link nav-link" onClick={closeSidebar}>Home</Link>
+            <Link to={"/home"} className="link nav-link" onClick={closeSidebar}>Home</Link>
           </li>
           <li className="nav-item">
             <Link to={"/Cart"} className="link nav-link" onClick={closeSidebar}>View Cart</Link>

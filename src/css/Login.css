@@ -12,7 +12,7 @@
 .login-container{
     /* background-color:rgb(146, 250, 222); */
     background-color: transparent;
-    border-color: transparent;
+    /* border-color: transparent; */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 30px;
