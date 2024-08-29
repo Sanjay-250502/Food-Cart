@@ -3,7 +3,6 @@ import "../App.css"
 import { useNavigate } from 'react-router-dom';
 const Product = ({product,cart,setCart}) => {
   const name = product.name.length>21?product.name.substring(0,20) + "..." : product.name;
-
   const AddCart = () => {
     setCart([...cart,product])
     navigate("/cart")

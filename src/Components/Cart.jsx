@@ -3,7 +3,7 @@ import "../css/Cart.css"
 import Header from './Header';
 const Cart = ({cart,setCart}) => {
   const [total,setTotal] = useState(0)
-  
+  const imageSrc = `/assets/${pic}`
   useEffect(() => {
     const totalCart = cart.reduce((acc, curr) => acc + curr.amt * curr.quantity, 0);
     setTotal(totalCart);
@@ -46,7 +46,7 @@ const Cart = ({cart,setCart}) => {
     {cart.map((product,i)=>(
       <div className='cart-products' key={i}>
       <div className='cart-img mt-3'>
-        <img src={product.pic} alt={product.name}/>
+        <img src={imageSrc} alt={product.name}/>
       </div>
       <div className="cart-info mt-3">
         <h5 className="cart-name">{product.name}</h5>
